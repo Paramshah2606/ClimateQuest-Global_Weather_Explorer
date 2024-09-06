@@ -2,14 +2,18 @@ ClimateQuest is an advanced weather data application that delivers real-time wea
 
 Key Features:
 
-Real-Time Data: Instant access to weather conditions from around the globe,
-Comprehensive Information: Displays temperature, humidity, wind speed, and detailed forecasts,
-Intuitive Interface: Simple and easy-to-use design for a seamless user experience,
-Reliable Updates: Utilizes the OpenWeatherMap API for precise and up-to-date weather information,
+Real-Time Data: Instant access to weather conditions from around the globe.
+
+Comprehensive Information: Displays temperature, humidity, wind speed, and detailed forecasts.
+
+Intuitive Interface: Simple and easy-to-use design for a seamless user experience.
+
+Reliable Updates: Utilizes the OpenWeatherMap API for precise and up-to-date weather information.
 
 Technology Stack:
 
-Frontend: React.js, Material-UI,
+Frontend: React.js, Material-UI
+
 API: OpenWeatherMap API
 
 Usage: 
