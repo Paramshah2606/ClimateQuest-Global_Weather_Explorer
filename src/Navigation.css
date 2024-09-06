@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#2b7a78;
+    /* background-color:#3aafa9; */
+    /* height: 150px; */
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.item{
+    font-size:40px;
+    padding: 10px;
+    margin: 0 20px;
+    color: #FEFFFF;
+}
+
+.title{
+    font-size:40px;
+    margin: 0 10px;
+    color: #FEFFFF;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+}

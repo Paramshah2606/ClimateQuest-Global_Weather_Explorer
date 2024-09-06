@@ -1,0 +1,15 @@
+.card{
+    margin:0 auto;
+    /* background-color: aqua; */
+}
+
+#color-body{
+    /* background-color: #def2f1; */
+    background-color:#f3fbfa;
+    /* color: rgb(0, 0, 0); */
+}
+
+#tax{
+    font-size: 100px;
+    color: pink;
+}
