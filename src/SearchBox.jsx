@@ -5,6 +5,8 @@ import { useState } from 'react';
 import "./SearchBox.css"
 
 export default function SearchBox({updateInfo}){
+    const API_URL=import.meta.env.VITE_API_URL;
+    const API_KEY=import.meta.env.VITE_API_KEY
     let [city,setCity]=useState("");
     let [error,setError]=useState(false);
 
