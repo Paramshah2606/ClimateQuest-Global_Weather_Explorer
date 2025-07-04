@@ -1,34 +1,37 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+ background: linear-gradient(120deg, #f7f7f7 0%, #fffbe7 70%, #ffe066 100%);
+  background-attachment: fixed;
+}
+
+
 #root {
-  /* max-width: 1280px; */
   margin: 0px;
   width: 100%;
-  padding:0px;
-  /* background-color: #8DA9C4; */
-  /* text-align: center; */
+  padding: 0px;
 }
 
 .card {
   margin: 0 auto;
   padding: 2px;
   border-radius: 105px;
-  /* box-shadow: 5px 5px 10px; */
 }
 
 .read-the-docs {
   color: #6e1010;
 }
 
-.InfoBox{
+.InfoBox {
   display: flex;
   justify-content: center;
 }
 
-#searchbox{
-  background-color:#feffff;
+#searchbox {
+  background-color: #feffff;
 }
 
-#tax{
+#tax {
   color: pink;
 }
-
-
