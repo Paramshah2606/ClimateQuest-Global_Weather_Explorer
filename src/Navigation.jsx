@@ -1,22 +1,20 @@
 import "./Navigation.css";
 import CloudQueueIcon from '@mui/icons-material/CloudQueue';
 
-export default function Navigation(){
-    return(
-        <div className="nav">
-            <div className="details">
-                <div className="icon"><CloudQueueIcon/></div>
-                <div className="title">ClimateQuest: Global Weather Explorer</div>
-            </div>
-            {/* <div className="menu"> */}
-            <ul className="nav-list">
-            <div className="menu">
-                <div className="item"><li>Home</li></div>
-                <div className="item"><li>Blog</li></div>
-                <div className="item"><li>About Us</li></div>
-                </div>
-            </ul>
-            {/* </div> */}
+export default function Navigation() {
+  return (
+    <nav className="nav-glass">
+      <div className="nav-content">
+        <div className="nav-brand">
+          <CloudQueueIcon className="nav-icon" />
+          <span className="nav-title">ClimateQuest: Global Weather Explorer</span>
         </div>
-    )
+        <ul className="nav-links">
+          <li className="nav-link">Home</li>
+          <li className="nav-link">Blog</li>
+          <li className="nav-link">About Us</li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
